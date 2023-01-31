@@ -1,5 +1,35 @@
-h1 {
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.content {
+  padding: 50px;
+}
+
+.heading {
+  margin: 0 auto;
+}
+
+#datetime {
+  margin-right: 10px;
+}
+
+header h1 {
     text-align: center;
+  }
+
+  header #alert {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
   }
   
   .change-img {
