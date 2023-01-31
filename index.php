@@ -21,6 +21,8 @@
 
     <button id="change-text" onclick="change()">Click</button>
     <button id="change-size" onclick="changeS()">click to change size</button>
+    <button id="hide-text" onclick="hidetxt()">click to hide text</button>
+    <button id="show-text" onclick="showtxt()">click to show text</button>
 
     <br><br>
 

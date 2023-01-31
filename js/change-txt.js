@@ -5,3 +5,11 @@ function change() {
 function changeS() {
     document.getElementById("text-change").style.fontSize = "35px";
 }
+
+function hidetxt() {
+    document.getElementById("text-change").style.display = "none";
+}
+
+function showtxt() {
+    document.getElementById("text-change").style.display = "block";
+}
