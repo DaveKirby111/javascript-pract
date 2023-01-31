@@ -20,6 +20,7 @@
     <p id="text-change">Click the button below to change this text.</p>
 
     <button id="change-text" onclick="change()">Click</button>
+    <button id="change-size" onclick="changeS()">click to change size</button>
 
     <br><br>
 
