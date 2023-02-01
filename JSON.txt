@@ -1,0 +1,17 @@
+// JSON stands for JavaScript Object Notation
+// JSON is a lightweight data-interchange format
+// JSON is plain text written in JavaScript object notation
+// JSON is used to send data between computers
+// JSON is language independent *
+
+//name/value pair
+{"name" : "John"}
+
+// create object and assign data
+person = {name:"John", age:31, city:"New York"};
+
+// returns John
+person.name;
+
+// modify data
+person.name = "Bill";

@@ -10,8 +10,26 @@ header {
   border: 2px solid black;
 }
 
+#day {
+  text-align: center;
+}
+
+nav {
+  border: 2px solid black;
+}
+
+nav ul{
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 10px;
+}
+
 .content {
-  padding: 50px;
+  padding: 100px;
 }
 
 .heading {
@@ -35,4 +53,46 @@ header h1 {
   .change-img {
     height: 250px;
     width: 200px;
+  }
+
+  #alert {
+    float: right;
+  }
+
+  .divine {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 50%;
+  }
+
+  .handPic {
+    margin: 0 auto;
+  }
+
+  .divine h3 {
+   text-align: center;
+  }
+
+  #hand {
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .fav-list {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 50%;
+  }
+
+  .the-list {
+    margin: 0 auto;
+  }
+
+  .the-list ol {
+    display: none;
   }

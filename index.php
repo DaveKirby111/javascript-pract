@@ -14,38 +14,33 @@
     <script src="js/alert.js"></script>
     <script src="js/datetime.js"></script>
     <script src="js/loop.js"></script>
+    <script src="js/ifelse.js"></script>
+    <script src="js/json.js"></script>
+    <script src="js/message.js"></script>
+    <script src="js/timeout.js"></script>
+    <script src="js/showList.js"></script>
+
+    <script type="module">
+        import message from "./js/message.js"
+
+        document.getElementById("module").innerHTML = message();
+    </script>
+
 </head>
 
-<!-- As a general rule, always declare variables with const. If you think the variable
-can change, use let. You can declare multiple variables in one statement.
-
-let person = "Joe", car = "Volvo", price = 200; 
-
-variable defined with let cannot be redeclared.You can with var.-->
 <body>
 
-<header>
+<?php require "banner.php"; ?>
 
-    <div class="heading">
-
-    <h1>Javascript Practice</h1>
-
-    <button id="alert" onclick="alertmsg()">Click me please.</button>
-
-    </div>
-
-    <div id="datetime">
-        <h1 id="time"></h1>
-        <p id="date"></p>
-    </div>
-
-</header>
+<?php require "nav.php"; ?>
 
 <main>
 
 <div class="content">
 
 <button onclick="window.print()">Print page.</button>
+<button id="alert" onclick="alertmsg()">Click me please.</button>
+
 
 <br><br>
 
@@ -58,17 +53,59 @@ variable defined with let cannot be redeclared.You can with var.-->
 
     <br><br>
 
-    <h3>Left/Right hand of the divine.</h3>
+<section class="row">
 
-    <button id="leftH" onclick="changeImg()">Left</button>
+    <div class="divine">
 
-    <img src="images/Inq.jpg" alt="left-hand" id="left-hand" class="change-img">
+        <h3>Left/Right hand of the divine.</h3>
 
-    <button id="rightH" onclick="changeImg2()">Right</button>
+        <div class="handPic">
+
+        <button id="leftH" onclick="changeImg()">Left</button>
+
+        <img src="images/Inq.jpg" alt="left-hand" id="left-hand" class="change-img">
+        
+
+        <button id="rightH" onclick="changeImg2()">Right</button>
+
+        </div>
+
+        <p id="hand">Left/Right Hand</p>
+
+    </div>
+
+    <div class="fav-list">
+
+        <div class="the-list">
+
+            <h3>My Favorite Stuff:</h3>
+
+            <button id="show-list" onclick="showlist()">Show list</button>
+
+            <ol id="favList">
+                <li>Mass Effect</li>
+                <li>Final Fantasy</li>
+                <li>Dragon Age</li>
+                <li>Resident Evil</li>
+                <li>Witcher</li>
+            </ol>
+
+        </div>
+
+    </div>
+
+</section>
 
     <br><br>
 
     <p id="fav-list"></p>
+
+    <!-- <p id="ifElse"></p> -->
+
+    <h3>Module:</h3>
+
+    <p id="module"></p>
+
 
 </div>
 
@@ -77,6 +114,8 @@ variable defined with let cannot be redeclared.You can with var.-->
 <script>
     dateTime();
     theloop();
+    ifelse();
+    string();
 </script>
 
 </body>

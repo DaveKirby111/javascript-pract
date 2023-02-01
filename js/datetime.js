@@ -20,7 +20,7 @@ function dateTime() {
     var h = date.getHours();
 
     // format hours from 24 to 12 and add am/pm.
-    var ampm = h >= 12 ? 'pm' : 'am';
+    var ampm = h >= 12 ? 'PM' : 'AM';
     h = h % 12;
     h = h ? h : 12; //the hour 0 should be 12.
 

@@ -1,0 +1,19 @@
+1. As a general rule, always declare variables with const. If you think the variable
+can change, use let. You can declare multiple variables in one statement.
+
+let person = "Joe", car = "Volvo", price = 200; 
+
+variable defined with let cannot be redeclared.You can with var.
+
+
+
+2. A JavaScript Boolean represents one of two values: true or false.
+
+
+3. Logical Operators:
+
+    . &&	and	(x < 10 && y > 1) is true
+
+    . ||	or	(x == 5 || y == 5) is false
+
+    . !	not	!(x == y) is true
