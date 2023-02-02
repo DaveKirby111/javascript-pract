@@ -12,6 +12,7 @@
     <script src="js/datetime.js"></script>
     <script src="js/ifelse.js"></script>
     <script src="js/switch.js"></script>
+    <script src="js/classes.js"></script>
 
 </head>
 
@@ -24,10 +25,12 @@
 <main>
 
 <h1 id="day"></h1>
+<p id="wkend"></p>
 
 <div class="content">
 
 
+</div>
 
 
 
@@ -39,6 +42,7 @@
 <script>
     dateTime();
     swtch();
+    weekend();
 </script>
 
 </body>

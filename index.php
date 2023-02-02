@@ -19,6 +19,19 @@
     <script src="js/message.js"></script>
     <script src="js/timeout.js"></script>
     <script src="js/showList.js"></script>
+    <script src="js/classes.js"></script>
+
+    <script>
+        // edit a collection of elements within a document.
+        function editP() {
+            const collection = document.getElementsByTagName("p");
+            for (let i = 0; i < collection.length; i++) {
+                collection[i].style.color = "red";
+                collection[i].style.fontSize = "25px";
+            }
+        }
+
+    </script>
 
     <script type="module">
         import message from "./js/message.js"
@@ -43,6 +56,8 @@
 
 
 <br><br>
+
+<button onclick="editP()">Edit Ps</button>
 
  <p id="text-change">Click the button below to change this text.</p>
 
@@ -88,6 +103,7 @@
                 <li>Dragon Age</li>
                 <li>Resident Evil</li>
                 <li>Witcher</li>
+                <li>Spider-Man</li>
             </ol>
 
         </div>
@@ -98,13 +114,13 @@
 
     <br><br>
 
-    <p id="fav-list"></p>
-
     <!-- <p id="ifElse"></p> -->
 
     <h3>Module:</h3>
 
     <p id="module"></p>
+
+    <p id="classes1"></p>
 
 
 </div>
@@ -116,6 +132,7 @@
     theloop();
     ifelse();
     string();
+    showgame();
 </script>
 
 </body>

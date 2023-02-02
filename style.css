@@ -14,6 +14,10 @@ header {
   text-align: center;
 }
 
+#wkend {
+  text-align: center;
+}
+
 nav {
   border: 2px solid black;
 }
@@ -62,7 +66,7 @@ header h1 {
   .divine {
     display: flex;
     flex-direction: column;
-    /* border: 2px solid black; */
+    border-right: 2px solid black;
     width: 50%;
   }
 
@@ -80,12 +84,13 @@ header h1 {
 
   .row {
     display: flex;
+    border: 2px solid black;
   }
 
   .fav-list {
     display: flex;
     flex-direction: column;
-    /* border: 2px solid black; */
+    border-left: 2px solid black;
     width: 50%;
   }
 
@@ -96,3 +101,4 @@ header h1 {
   .the-list ol {
     display: none;
   }
+

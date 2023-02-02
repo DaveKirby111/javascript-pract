@@ -1,9 +1,10 @@
-1. As a general rule, always declare variables with const. If you think the variable
-can change, use let. You can declare multiple variables in one statement.
+1. As a general rule, always declare variables with const. 
+    If you think the variable can change, use let. 
+    You can declare multiple variables in one statement.
 
-let person = "Joe", car = "Volvo", price = 200; 
+    let person = "Joe", car = "Volvo", price = 200; 
 
-variable defined with let cannot be redeclared.You can with var.
+    variable defined with let cannot be redeclared.You can with var.
 
 
 
@@ -17,3 +18,17 @@ variable defined with let cannot be redeclared.You can with var.
     . ||	or	(x == 5 || y == 5) is false
 
     . !	not	!(x == y) is true
+
+
+4. Class -> Object
+
+    Instance properties: what they have
+
+        -name
+        -Age
+        -height
+
+    Instance methods: what they do 
+
+        -talk
+        -run

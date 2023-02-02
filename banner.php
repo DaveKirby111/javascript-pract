@@ -2,11 +2,15 @@
 
     <div class="heading">
 
+    <div class="title">
+
     <h1>Javascript Practice</h1>
 
     <!-- <p>A time-based greeting using if/else statement.</p> -->
     
     <button id="ifelsegreet" onclick="greet()">Click for greeting</button>
+
+    </div>
 
     </div>
 
