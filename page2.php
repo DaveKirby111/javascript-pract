@@ -13,8 +13,18 @@
     <script src="js/ifelse.js"></script>
     <script src="js/switch.js"></script>
     <script src="js/classes.js"></script>
+    <script src="js/apply.js"></script>
+    <script src="js/array.js"></script>
+
+
 
 </head>
+
+<?php
+
+$page = "Page 2";
+
+?>
 
 <body>
 
@@ -29,9 +39,25 @@
 
 <div class="content">
 
+<p id="classes1"></p>
+<p id="demo"></p>
+<p id="person"></p>
+<p id="person2"></p>
+<p id="num"></p>
 
+<div id="dis-likes">
+
+<div class="like">
+    <h3>Likes:</h3>
+    <ul id="likes"></ul>
 </div>
 
+<div class="dislike">
+    <h3>Dislikes:</h3>
+    <ul id="dislikes"></ul>
+</div>
+
+</div>
 
 
 
@@ -43,6 +69,13 @@
     dateTime();
     swtch();
     weekend();
+    showgame();
+    myCar();
+    person1();
+    person2();
+    myFunction();
+    Like();
+    disLike();
 </script>
 
 </body>

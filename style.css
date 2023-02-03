@@ -102,3 +102,14 @@ header h1 {
     display: none;
   }
 
+  #dis-likes {
+    display: flex;
+    width: 400px;
+    padding: 5px;
+    margin: 0 auto;
+  }
+
+  .dislike {
+    margin-left: auto;
+  }
+

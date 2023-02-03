@@ -32,3 +32,34 @@
 
         -talk
         -run
+
+
+5. Boolean Values
+
+    Very often, in programming, you will need a data type that can only have one of two values, like
+
+    YES / NO
+    ON / OFF
+    TRUE / FALSE
+    For this, JavaScript has a Boolean data type. It can only take the values true or false.
+
+
+    Everything With a "Value" is True
+
+    Everything Without a "Value" is False
+
+
+
+    JavaScript Comparison Operators
+
+    Operator	Description
+    
+    ==	equal to
+    ===	equal value and equal type
+    !=	not equal
+    !==	not equal value or not equal type
+    >	greater than
+    <	less than
+    >=	greater than or equal to
+    <=	less than or equal to
+    ?	ternary operator

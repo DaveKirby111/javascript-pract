@@ -19,7 +19,6 @@
     <script src="js/message.js"></script>
     <script src="js/timeout.js"></script>
     <script src="js/showList.js"></script>
-    <script src="js/classes.js"></script>
 
     <script>
         // edit a collection of elements within a document.
@@ -40,6 +39,12 @@
     </script>
 
 </head>
+
+<?php
+
+$page = "JS Pract - Homepage";
+
+?>
 
 <body>
 
@@ -132,7 +137,6 @@
     theloop();
     ifelse();
     string();
-    showgame();
 </script>
 
 </body>

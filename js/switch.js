@@ -34,12 +34,14 @@ function weekend() {
 
     switch (new Date().getDay()) {
     case 4:
-    case 5:
         wkend = "Can't wait for the weekend.";
+        break
+    case 5:
+        wkend = "Weekend. LETS GO!";
         break;
     case 0:
     case 6:
-        wkend = "The weekend is here";
+        wkend = "The weekend is here";a
         break;
     default:
         wkend = "Another week."

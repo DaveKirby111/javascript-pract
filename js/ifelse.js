@@ -24,3 +24,51 @@ function greet() {
        alert("Good evening");
     }
 }
+
+
+
+function Like() {
+
+    const game = [
+
+        "Mass Effect",
+        "Dragon Age",
+        "Final Fantasy",
+        "Resident Evil",
+        "Witcher"
+    
+    ];
+
+    let likes = document.getElementById("likes");
+
+
+    game.forEach((vg) => {
+
+        let li = document.createElement("li");
+            li.innerText = vg;
+            likes.appendChild(li);
+
+    });
+   
+}
+
+
+function disLike() {
+
+    const game = [
+        
+        "Madden",
+        "Call of Duty",
+        "Need for Speed",
+        "God of War",
+        "Far Cry"
+    ];
+
+    let dislikes = document.getElementById("dislikes");
+
+    game.forEach((vg) => {
+        let li = document.createElement("li");
+        li.innerText = vg;
+        dislikes.appendChild(li);
+    });
+}

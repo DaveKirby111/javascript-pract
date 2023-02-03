@@ -4,7 +4,7 @@
 
     <div class="title">
 
-    <h1>Javascript Practice</h1>
+    <h1><?php echo $page ?></h1>
 
     <!-- <p>A time-based greeting using if/else statement.</p> -->
     

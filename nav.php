@@ -1,6 +1,22 @@
 <nav>
-    <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="page2.php">Page 2</a></li>
-    </ul>
+
+<ul>
+
+
+<?php 
+
+$links = [
+    "/" => "Home",
+    "page2.php" => "Page 2",
+    "page3.php" => "Page 3"
+];
+
+foreach ($links as $key => $link) {
+    echo '<li><a href="' . $key . '">' . $link . '</a></li>';
+}
+
+?>
+
+</ul>
+
 </nav>
